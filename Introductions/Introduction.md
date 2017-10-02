@@ -54,7 +54,6 @@ JS and NodeJS
   <dd>Smartwatches</dd>
   <dd>Wearables</dd>
   
-  
   <dt>What are the benefits of IoT?</dt>
   <dd>Should make live easier</dd>
   <dd>M2M communication</dd>

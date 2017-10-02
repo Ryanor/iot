@@ -1,4 +1,4 @@
-// Relay control using the ESP8266 WiFi chip
+// Remote controlled blinking LED using the ESP8266 WiFi chip
 
 // Import required libraries
 #include <ESP8266WiFi.h>
