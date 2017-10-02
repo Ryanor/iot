@@ -1,5 +1,5 @@
 # IoT - Internet of things
 
-###Groupmembers:
-..*Gabriel Schützeneder
-..*Wührer Gerhard
+### Groupmembers:
+..* Gabriel Schützeneder
+..* Wührer Gerhard
