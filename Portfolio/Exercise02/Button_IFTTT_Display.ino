@@ -100,6 +100,8 @@ void triggerButtonPressed() {
   // Turn on the blacklight and print a message.
   lcd.clear();
   lcd.print(line);
+  // lcd.write(line); // try this command if the above command is not working
+  
   // and console
   Serial.println(line);
   Serial.println("==========");
