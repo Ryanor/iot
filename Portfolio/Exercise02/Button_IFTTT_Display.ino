@@ -56,6 +56,7 @@ void setup() {
   
   // initialize the LCD
   lcd.begin(0,2);  // sda=0, scl=2
+  lcd.backlight();
 }
 
 void loop() {
@@ -97,7 +98,7 @@ void triggerButtonPressed() {
   
   // print received message to display
   // Turn on the blacklight and print a message.
-  lcd.backlight();
+  lcd.clear();
   lcd.print(line);
   // and console
   Serial.println(line);
