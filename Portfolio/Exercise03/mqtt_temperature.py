@@ -21,7 +21,7 @@ while True:
     # create random delta temperature
     delta = random.randint(1,6)
     # even number add delta to temperature
-    if delta/2 == 0:	
+    if delta%2 == 0:	
          temp = temp + delta
     # odd number subtract number from temperature
     else:
