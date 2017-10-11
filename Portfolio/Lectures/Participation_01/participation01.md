@@ -8,7 +8,7 @@
   <dd>Delivery systems</dd>
   <dd>Big Data</dd>
 
-  <dt>Data Protocolls</dt>
+  <dt>Data Protocols</dt>
   <dd>WiFi</dd>
   <dd>ZigBee</dd>
   <dd>Bluetooth and Bluetooth LE</dd>
