@@ -4,4 +4,4 @@
 * [Gabriel Schützeneder](https://github.com/schuetzi/IoT)
 * Wührer Gerhard
 
-## [Personal Introduction](https://github.com/Ryanor/iot/Introduction)
+## [Personal Introduction](https://github.com/Ryanor/iot/tree/master/Introduction)
