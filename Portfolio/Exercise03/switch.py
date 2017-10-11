@@ -6,8 +6,7 @@ status = 0
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code " + str(rc))
 
-    client.subscribe("test/temperature")
-
+    client.subscribe("test/switch")
 
 def on_message(client, userdata, msg):
     print(msg.topic + " " + str(msg.payload))
@@ -16,22 +15,21 @@ def on_message(client, userdata, msg):
     # cast string to int
     if int(message) > 20 and status == 1:
         off()
-        client.publish("test/switch", 0)
+        client.publish("test/led", 0)
     elif int(message) < 20 and status == 0:
         on()
-        client.publish("test/switch", 1)
+        client.publish("test/led", 1)
 
 def off():
-    print("Turned off")
+    print("LED off")
     global status
     status = 0
 
 def on():
-    print("Turned on")
+    print("LED on")
     global status
     status = 1
-
-
+        
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message

@@ -14,17 +14,18 @@ client.connect("192.168.12.1", 1883, 60)
 
 client.loop_start()
 
-temp = 45
+temp = 10
+delta = 1
 
 while True:
     time.sleep(2)
     # create random delta temperature
-    delta = random.randint(1,6)
+    temp = temp + delta
     # even number add delta to temperature
-    if delta%2 == 0:	
-         temp = temp + delta
+    if temp > 28:	
+         delta = -1
     # odd number subtract number from temperature
     else:
-         temp = temp - delta
+         delta = 1
     
     client.publish("test/temperature", temp)
