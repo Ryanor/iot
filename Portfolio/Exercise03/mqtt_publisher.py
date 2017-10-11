@@ -22,9 +22,9 @@ while True:
     time.sleep(2)
     
     temp = temp + delta
-    if temp > 28:	
+    if temp >= 28:	
          delta = -1
-    elif temp < 10:
+    elif temp =< 10:
          delta = 1
         
     client.publish("test/temperature", temp)
