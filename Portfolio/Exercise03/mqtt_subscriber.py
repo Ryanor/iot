@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 
 
-status = 0
+status = 1
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code " + str(rc))
@@ -14,10 +14,10 @@ def on_message(client, userdata, msg):
     # cast payload to string
     message = msg.payload.decode();
     # cast string to int
-    if int(message) > 20 and status == 1:
+    if int(message) > 24 and status == 1:
         off()
         client.publish("test/switch", 0)
-    elif int(message) < 20 and status == 0:
+    elif int(message) < 24 and status == 0:
         on()
         client.publish("test/switch", 1)
 
