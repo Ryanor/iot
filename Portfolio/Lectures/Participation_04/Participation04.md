@@ -10,7 +10,7 @@
 - Use simulator test programs
 - stresstest the hardware
 
-### Role play
+### Role play:
 Simulator:
 - no hardware needed for test scaling up a project
 - find corner cases
@@ -44,22 +44,3 @@ Stories:
 - well documented
 - many tutorials
 - ATMega, Arduino
-
-Access point
-Mqtt broker running
-start node red
-connect to node red
-create new flow
-use mqtt input
-    double click to connect to mqtt broker
-    select topic to listen
-use debug output
-and connect both flow icons
-use change icon to switch state for pressed to on or off
-    use rules to swtich on or off
-
-
-
-
-
-
