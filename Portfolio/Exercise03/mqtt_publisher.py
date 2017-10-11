@@ -16,16 +16,15 @@ client.loop_start()
 
 temp = 10
 delta = 1
+up = 1
 
 while True:
     time.sleep(2)
-    # create random delta temperature
+    
     temp = temp + delta
-    # even number add delta to temperature
     if temp > 28:	
          delta = -1
-    # odd number subtract number from temperature
-    else:
+    elif temp < 10:
          delta = 1
-    
+        
     client.publish("test/temperature", temp)
