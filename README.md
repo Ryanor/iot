@@ -38,3 +38,7 @@ User stories:
 - finished remote trigger event work from Lab1
 - Trigger a button event using IFTTT webhook and show message to the display
 - write two user stories with scenarios where parts could be commercialize
+
+## [Lecture 3](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_03)
+
+## [Lab3](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise03)
