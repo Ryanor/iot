@@ -6,7 +6,7 @@
 
 ## [Personal Introduction](https://github.com/Ryanor/iot/tree/master/Introduction)
 
-## [Lecture 1](https://github.com/Ryanor/iot/tree/master/Lectures/Participation_01)
+## [Lecture 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_01)
 Used Google to search for IoT:
 - Domains
 - Data Protocols
