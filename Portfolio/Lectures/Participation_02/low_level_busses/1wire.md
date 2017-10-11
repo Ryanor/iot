@@ -1,0 +1,30 @@
+#Onewire:
+
+- similiar concept to I2C
+- lower data rates and longer range
+- Feature: only use two wires: Data and Ground
+- 75 devices can be found per second
+- Examples: Java Ring (iButton), Apple MacSafe
+- Master can be a PC or microcontroller
+- Data include power supply model, wattage, serial number, commands to send full power and illuminate the connector
+- Used for communication small inexpensive devices (e.g. digital thermometers/wheater instruments)
+- also called MicroLAN
+- Maximum Cable Length: 750 Meters
+- Different forms (linear, stubbed, star topology)
+- Master/Slaves[= 1-Wire-Devices]
+- Slaves no longer stubs than three meters in linear topology
+- In stubbed topology longer than three meters are possible
+- Bus-topolgy up to 300 meters
+- Star topology - any length (max 750 meter)
+- 220Ohm Pullup resistor for the master
+- Slaves are connected to the net
+- 150Ohm resistor for the slaves which are connected to the net (reduction of reflections on the line)
+- 15 microsec and 54 microsec/data package
+- Protocol used: CMOS/TTL
+- Supply voltage of 2.8V to 6V
+- Sequential data flow in either direction
+- serial and bidirectional
+- ONLY one direction at a TIME! (half duplex)
+- Data read and written = least significant bit first
+- 16.3kBit/sec
+- Home Automation classic use case
