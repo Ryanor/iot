@@ -34,7 +34,6 @@ const char* mqtt_server = "192.168.12.1";
 
 // set values for the sound sensor reading
 float value = 0;
-float db = 0;
 char db_string[4];
 
 // MQTT client
@@ -120,10 +119,8 @@ void loop() {
   client.loop();
 
   value = analogRead(A0);
-  db = 20 * log10(value);
-  Serial.print(db);
   Serial.print("\n");
-  dtostrf(db, 4, 2, db_string);
+  dtostrf(value, 4, 2, db_string);
   delay(1000);
   client.publish("house/childrens_room", db_string);
 }
