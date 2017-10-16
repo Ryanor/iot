@@ -48,6 +48,7 @@ void setup() {
   
   // Initialize the BUILTIN_LED pin as an output
   pinMode(BUILTIN_LED, OUTPUT);
+  digitalWrite(BUILTIN_LED, LOW);
 }
 
 void setup_wifi() {
@@ -79,15 +80,25 @@ void callback(char* topic, byte* payload, unsigned int length) {
   }
   Serial.println();
 
-  // Switch on the LED if an 1 was received as first character
-  if ((char)payload[0] == '1') {
-    digitalWrite(BUILTIN_LED, LOW);   // Turn the LED on (Note that LOW is the voltage level
+  // cast payload to string
+  String vartemp = String((char*)payload); //convertByteToFloat(payload, length);
+  Serial.print(vartemp);
+  Serial.print("\n");
+  // cast temperature string to int
+  int temp = vartemp.toInt();
+  Serial.print(temp);
+  Serial.print("\n");
+  // compare temp with treshold
+  if ( temp >= 26) {
+    Serial.print("LED on");
+    digitalWrite(BUILTIN_LED, LOW);   
+    // Turn the LED on (Note that LOW is the voltage level
     // but actually the LED is on; this is because
     // it is acive low on the ESP-01)
   } else {
+    Serial.print("LED off");
     digitalWrite(BUILTIN_LED, HIGH);  // Turn the LED off by making the voltage HIGH
   }
-
 }
 
 void reconnect() {
@@ -117,10 +128,11 @@ void loop() {
     reconnect();
   }
   client.loop();
-
+  // read noise level in childrens room
   value = analogRead(A0);
+  Serial.print(value);
   Serial.print("\n");
   dtostrf(value, 4, 2, db_string);
-  delay(1000);
+  delay(5000);
   client.publish("house/childrens_room", db_string);
 }
