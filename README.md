@@ -42,3 +42,17 @@ User stories:
 ## [Lecture 3](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_03)
 
 ## [Lab3](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise03)
+
+## [Lecture 4](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_04)
+
+## [Lab4](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise04)
+
+## [Lecture 5](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_05)
+
+## [Lab5](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise05)
+
+## [Lecture 6](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_06)
+
+## [Lab6](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise06)
+
+## [Project 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Project01)
