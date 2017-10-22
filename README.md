@@ -124,7 +124,7 @@ UlnoIoT
 Introduction to Project 2
 
 ## [Lab 6](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise06)
-- rebuild Project 1 with the UlnoIoT framework completely in hardware
+- rebuild [Project 1 with the UlnoIoT framework](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise06/Project01_ulnoiot) completely in hardware
 - Implement remote features such as the integrator with UlnoIoT-integriot
 
 ## [Lecture 7]()
