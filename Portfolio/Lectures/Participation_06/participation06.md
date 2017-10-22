@@ -12,9 +12,14 @@
 
 
 ### Analog sensor
-- to create an analog sensor use: analog(name, precision, threshold);
-- example analog("light", precision=10);
-    -- to make a digital sensor do: analog("light", precision=10, threshold = 290);
+to create an analog sensor use: 
+- analog(name, precision, threshold);
+
+ example:
+- analog("light", precision=10);
+
+to make a digital sensor do: 
+- analog("light", precision=10, threshold = 290);
 
 ### Create drvier
 - the file new_devices is the base class to create a new device
@@ -22,5 +27,5 @@
 ### RGB led and animation
 - help("rgb_multi") shows how to create a new rgb strip as actor
 - to set the brightness of a led use lower values for the colors
-    -- range is from 0 to 255 for r,g,b
+    - range is from 0 to 255 for r,g,b
 - for animation use mqtt send rgb/animation/set "s 1 green s 2 blue p 1000"
