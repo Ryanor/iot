@@ -127,9 +127,22 @@ Introduction to Project 2
 - rebuild [Project 1 with the UlnoIoT framework](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise06/Project01_ulnoiot) completely in hardware
 - Implement remote features such as the integrator with UlnoIoT-integriot
 
-## [Lecture 7]()
+## [Lecture 7](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_07)
+Research work Internet of Broken Things:
+- What is broken?
+- How can it be fixed?
+- Newsworthy failures/successes
+- Debate about the results
 
-## [Lab 7]()
+## [Lab 7](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise07)
+- Assembling the scale for the second project
+- Calibration of the scale to get correct measurements
+
+## [Lecture 8]()
+
+
+## [Lab 8]()
+
 
 ## [Project 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Project01)
 - flashed another Raspberry Pi 3 with the ulnoiot image (see [Lab 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise01) for details)
@@ -137,5 +150,12 @@ Introduction to Project 2
 - tested the project with MQTT-FX to subscribe and publish the correct data
 - merged project with Gabriels parts
 
-## [Project 2]()
+## [Project 2](https://github.com/Ryanor/iot/tree/master/Portfolio/Project02)
 Liquid challenge
+- Assembled the scale
+- Calibrated the scale
+- Used different sensor to measure distances to the liquids surfaces
+- Make a table about useful sensors
+- field of use for the sensors
+
+## [Project 3]()

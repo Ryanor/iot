@@ -14,7 +14,7 @@
 ## Newsworthy failures/successes
 - Mirai botnet
 - Iot-reaper / IoTroop botnet
-- Krack ( Key reusing attack on WPA2 wireless networks)
+- Krack (Key reusing attack on WPA2 wireless networks)
 
 
 ## Links
