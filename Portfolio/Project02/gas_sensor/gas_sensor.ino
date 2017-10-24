@@ -2,7 +2,7 @@
  * Gas sensor example with the WemosD1mini board and
  * the Sunfounder gas sensor.
  * The sensor is connected to the digital pin D1
- * and the analog pin A0
+ * and the analog pin A0, but only analog pin is used in this example.
  */
 
  const int gas_sensor = A0;

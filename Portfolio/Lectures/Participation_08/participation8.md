@@ -16,22 +16,17 @@ acces to the internet
 
 ## LORA
 
-###
-Low Power Wide Area Netork LPWAN
- 
- - new transmission standard between distributed devices and distributed gateways
-
+- Low Power Wide Area Netork LPWAN
+- new transmission standard between distributed devices and distributed gateways
 - relation bandwith/range/power
-low power, long range but reduced bandwith (the lower capacity)
-
+	- low power, long range but reduced bandwith (the lower capacity)
 - Link budget
-    - - very high link budget
+    - very high link budget
     - connection between sender and receiver
     - decreased by objstacles between sender and receiver
     - 154db link budget
     - range theoretically 1300km
     - range can be increased by amplifier or antennas
-
 - community approach
     - The things network
     - distributied gateways
@@ -40,14 +35,12 @@ low power, long range but reduced bandwith (the lower capacity)
     - free of charge
     - community approach is based on privately built and operated gateways and an 
     infrastructure which transfers data from the sensors to the gateways
-
 - benefits of LORA
     - license free
     - LoRaAlliance
     - LoRaWAN
     - reduces traffic from the gateway to the sensor
-    - prefers traffic from the sensor to th e gateway
-        
+    - prefers traffic from the sensor to th e gateway 
 - problems with LORA
     - limited sending power 
     - narrow bandwith
@@ -69,16 +62,12 @@ low power, long range but reduced bandwith (the lower capacity)
     - security monitoring
     - smart environment
 ### Calculation
- 1300km distance
- 0.868 GHz
- 0 at all fields
- received power -153.5 dBm
+- Distances: 1300km, 800km
+- Frequency: 0.868 GHz
+- Fields: 0 at all fields
+- Received power: -153.5 dBm for 1300km, - 149.3dBm for 800km
  
- 800km
- 0.868 GHz
- 0 at all fields
- received power -149.3
- 
+  
 ### Discussion
 - good for long transmissions
 - low data rates

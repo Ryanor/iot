@@ -1,8 +1,9 @@
 // Example for an i2c connector to communicate with ulnoiot-node via i2c
-//
+// Its using a scale connected to a WemosD1mini board and publishes
+// the weight as MQTT message
 // Author: ulno (http://ulno.net)
+// 
 // Created: 2017-10-20
-//
 
 
 #include <UlnoiotI2c.h>
@@ -12,8 +13,7 @@
 HX711_ADC LoadCell(9, 10);
 // timer for scale
 long t;
-// conter for measurement
-int counter = 0;
+
 
 void myreceive( char *msg, int len ) {
     Serial.print("Received a message of length: ");
@@ -49,12 +49,12 @@ void loop() {
     t = millis();
   }
   ui2c.suspend(100);
+  // cast float to char*
   dtostrf(weight, 4, 2, mystr);
-  //snprintf(mystr, 4, "%d", weight);
+  // publish message
   ui2c.write(mystr);
   Serial.println(mystr);
   delay(1000);
-  counter += 1;
 }
 
 

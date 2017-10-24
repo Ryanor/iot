@@ -48,3 +48,21 @@
 - compared to a kitchen scale no differences in weight
     - bottle with water 411g
     - bottle with oil 319.5g
+	
+## Summary
+The ultrasonic sensor and time to flight sensor are useful to measure the level of the fluids. 
+But if the fluids are moving, e.g. through waves, the measurement will not be correct. 
+For this case the use of more sensors of the same typ and a meridian of all measurements
+should return correct values for the fluid level.
+
+The reed switch has to be used witch a magnet on a float to indicate a magnetic field to the switch.
+It has the advantage to work through materials like wood, aluminium, plastic.
+But also the disadvantage of a short range, which means the float has to be very close to the edge
+of the tank.
+
+The rain drop sensor works for water and waste water.
+Oil or gasoline do not conduct electricity but
+if Bioethanol is a part of the diesel it might conduct electricity.
+
+The gas sensor is not useful to measure the level of any fluid,
+but it works perfect to detect gas damps if there are leakages in the gas tank.
