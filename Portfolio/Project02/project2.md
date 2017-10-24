@@ -38,3 +38,13 @@
     - the longer the sensor stays in the environment the higher the values
     - even if the liquid is not pending
     - works to recognize gas damps but not to measure the level
+    
+### Scale
+- scale works correct to measure the amount of a fluid
+    - each fluid has its own specific weight factor which is needed to 
+    calculate the volume
+- if the fluids are moving e.g. waves the scale also measures 
+    the forces of the movement which causes inaccuracies
+- compared to a kitchen scale no differences in weight
+    - bottle with water 411g
+    - bottle with oil 319.5g
