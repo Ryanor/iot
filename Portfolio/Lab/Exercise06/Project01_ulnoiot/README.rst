@@ -14,8 +14,12 @@ Connected nodes
 Describe system related infomration of teh connected nodes explaing more than
 visible in the descriptions of the single nodes.
 
-* device 1
-* device 2
+* Temperature sensor
+* Gas sensor
+* Sound sensor
+* Display
+* RGB LED
+* Raspberry Pi 3 as integrator
 
 
 Super Systems
