@@ -22,3 +22,4 @@ and shows the value on the display.
 - An ultrasonic sensor measures the distance in the doorway and closes the garage door automatically
     if no obstacles are detected, else the door stays open.
 - The greenhouse is equipped with a small weather station that monitors the humidity, temperature and light situation
+- Remote access to the system
