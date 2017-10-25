@@ -1,8 +1,32 @@
-# Project 2
+# Projekt 02
 
-## Measuring liquids
+## Regentropf Sensor (Gabriel)
+|Trinkwasser|Schmutzwasser|Öl|
+|---|---|---|
+|~285 – wet|~190 – wet|987 – dry|
 
-### Time to Flight sensor VL53lox
+Anhand dieser Werte kann man sehr gut erkennen, dass der Regentropf Sensor sehr gut Wasser registriert. Öl hingegen kann der Sensor nicht wahrnehmen und wird als "trocken" interpretiert. Weder analoger noch digitaler Ausgang ändern sich.
+
+Die Implementierung des Sensors wurde in der Arduino IDE realisiert. Die Werte des Sensors werden über MQTT an den Raspberry Pi gesendet.
+
+[Implementierung](/Übung/Project02/raindrop_sensor_mqtt/raindrop_sensor_mqtt.ino)
+
+## Ultraschall Sensor (Gabriel)
+
+|Trinkwasser|Schmutzwasser|Öl|
+|---|---|---|
+|7,5cm|7,5cm|7,5cm|
+
+
+Der Ultraschall Sensor konnte trotz unterschiedlicher Flüssigkeiten immer den korrekten Wert liefern. Ein Becher war bis zum ersten Drittel mit der jeweiligen Flüssigkeit gefüllt. Den Füllstand eines Tankes kann man mithilfe eines zweiten Ultraschallsensor herausfinden. Dafür montiert man einen Sensor links oben und einen rechts oben. Anhand der Differenz kann man eventuelle Schwankungen der Flüssigkeit herausrechnen und den Füllstand ermitteln.
+
+Die Implementierung dieses Sensors war ein bisschen aufwendiger als jener zuvor. Ich habe eine bereits fertige Library für den ESP8266 verwendet und diese so verändert, dass diese kompatibel mit der UlnoIoT Umgebung ist. Im autostart.py kann man den Sensor so konfigurieren. "hcsr04("_Name_", _Trigger Pin_, _Echo Pin_)" Als Trigger bzw. Echo bin müssen jedoch die GPIO Pins verwendet werden. z.B. d5 = 14 (GPIO14). Durch die Einbindung der Library in das Framework, habe ich erst richtig verstanden wie die Treiber mit dem MQTT verknüpft sind. An einen solchen Ansatz habe ich zuvor nicht gedacht.
+
+[Library](/Übung/Project02/_hcsr04.py)
+
+[Device Konfiguration](/Übung/Project02/new_devices.py)
+
+## VL53lox (Gerhard)
 - installed arduino library for the VL53lox time to flight sensor
 - used the example code to measure differnte distances on different fluids
     - trink water
@@ -20,7 +44,9 @@
 - the time to flight sensors work good with all fluids but the measurment is pending 
   +/- 10mm
   
-### Reed switch
+[Implementation](/Übung/Project02/vl53l0x/vl53l0x.ino)
+  
+## Reed switch (Gerhard)
 - connected the reed switch to the wemos board, swtich uses digital input
 - switch connects at the influence of a magnetic field
 - wrote a simple program that recognizes if the switch is connected or not
@@ -30,16 +56,21 @@
     - the distance to close the switch is very small ~3cm
     - works through materials e.g. wood, plastic, aluminium
     - must be used as float switch
+
+[Implementation](/Übung/Project02/reed_switch/reed_switch.ino)
+
    
-### Gas sensor
+## Gas sensor (Gerhard)
 - conected the gas sensor to the wemos board
 - used a simple program to get measurment values
     - the sensor does work and recognizes alcoholic damps
     - the longer the sensor stays in the environment the higher the values
     - even if the liquid is not pending
     - works to recognize gas damps but not to measure the level
+
+[Implementation](/Übung/Project02/gas_sensor/gas_sensor.ino)
     
-### Scale
+## Scale (beide)
 - scale works correct to measure the amount of a fluid
     - each fluid has its own specific weight factor which is needed to 
     calculate the volume
@@ -48,7 +79,17 @@
 - compared to a kitchen scale no differences in weight
     - bottle with water 411g
     - bottle with oil 319.5g
-	
+    
+Gerhard und ich haben die Waage aufgebaut und gemeinsam kalibriert. Der Faktor, um diese zu kalibrieren war 444,2.
+
+[Implementierung](/Übung/Project02/ulnoiot_i2c_scale/ulnoiot_i2c_scale.ino)
+
+
+
+![firstimg](/Übung/Project02/fluid.JPG)
+![firstimg](/Übung/Project02/oil.JPG)
+![firstimg](/Übung/Project02/output.JPG)
+
 ## Summary
 The ultrasonic sensor and time to flight sensor are useful to measure the level of the fluids. 
 But if the fluids are moving, e.g. through waves, the measurement will not be correct. 
