@@ -9,7 +9,7 @@ Anhand dieser Werte kann man sehr gut erkennen, dass der Regentropf Sensor sehr 
 
 Die Implementierung des Sensors wurde in der Arduino IDE realisiert. Die Werte des Sensors werden über MQTT an den Raspberry Pi gesendet.
 
-[Implementierung](/iot/Portfolio/Project02/raindrop_sensor_mqtt/raindrop_sensor_mqtt.ino)
+[Implementierung](/Project02/raindrop_sensor/raindrop_sensor_mqtt.ino)
 
 ## Ultraschall Sensor (Gabriel)
 
