@@ -50,3 +50,14 @@ status and communicate with each other.
 
 ## Project 3 announcement
 
+## Data analysis demonstration
+- Matplotlib
+    - data visualistation
+    - log data from a sensor using log command on ulnoiot
+    - use liveplot.py
+   
+- Nodered
+    - install node-red-dashboard via npm packet manager first
+    - dashboard delivers new functions to node-red
+    - use chart and time for the axis to visualize the data
+    - open browser site localhost:1880/ui
