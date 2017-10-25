@@ -4,9 +4,9 @@
 * [Gabriel Schützeneder](https://github.com/schuetzi/IoT)
 * Wührer Gerhard
 
-## [Personal Introduction](https://github.com/Ryanor/iot/tree/master/Introduction)
+## [Personal Introduction](/Introduction)
 
-## [Lecture 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_01)
+## [Lecture 1](/Portfolio/Lectures/Participation_01)
 Used Google to search for IoT:
 - Domains
 - Data Protocols
@@ -14,7 +14,7 @@ Used Google to search for IoT:
 - Benefits of using IoT
 - Challenges using IoT
 
-## [Lab 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise01)
+## [Lab 1](/Portfolio/Lab/Exercise01)
 - Assembled the Raspberry Pi 3 and the case
 - cloned ulnoiot image onto a new SD-card
 - tunnel port 5901 and use vncviewer to get connected to the raspi
@@ -22,7 +22,7 @@ Used Google to search for IoT:
 - flash blink example onto WeMos D1 min board
 - try to trigger the led remotely via wifi
 
-## [Lecture 2](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_02)
+## [Lecture 2](/Portfolio/Lectures/Participation_02)
 First task:
 - Find informations about low level buses
 	- my task was to search for informations about SPI
@@ -35,12 +35,12 @@ User stories:
 - what is a user story
 - how can a user story help us in development
 
-## [Lab 2](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise02)
+## [Lab 2](/Portfolio/Lab/Exercise02)
 - finished remote trigger event work from Lab1
 - Trigger a button event using IFTTT webhook and show message on a display
 - write two user stories with scenarios where parts could be commercialized
 
-## [Lecture 3](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_03)
+## [Lecture 3](/Portfolio/Lectures/Participation_03)
 Exchange formats:
 - CBOR Concise Binary Object Representation
 - Text format
@@ -65,7 +65,7 @@ Protokols:
 
 Scaling and testing
 
-## [Lab 3](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise03)
+## [Lab 3](/Portfolio/Lab/Exercise03)
 - Searched for a CoAP library for the ESP8266 board
 - Run a simple CoAP example and connected with COPPER
 - Used the Firefox extension COPPER
@@ -75,7 +75,7 @@ Scaling and testing
 - installed Node-RED via npm package manager
 
 
-## [Lecture 4](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_04)
+## [Lecture 4](/Portfolio/Lectures/Participation_04)
 Scaling and testing of IoT projects
 - Issues on scaling
 - How can we do testing?
@@ -89,13 +89,13 @@ IoT Frameworks
 - Iotivity
 - iot.eclipse.org Kura
 
-## [Lab 4](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise04)
+## [Lab 4](/Portfolio/Lab/Exercise04)
 - Used Node-RED to read the temperature sensor data form the 3 exercise and react to it triggering a LED
 - Node-RED became the integrator to our python scripts
 - installed MongooseOS
 - small example in MongooseOS
 
-## [Lecture 5](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_05)
+## [Lecture 5](/Portfolio/Lectures/Participation_05)
 What I would like to see in an IoT Framework?
 UlnoIoT
 - Why was UlnoIoT created?
@@ -108,13 +108,13 @@ UlnoIoT
 Recap:
 - how many features where integrated in UlnoIoT
 
-## [Lab 5](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise05)
+## [Lab 5](/Portfolio/Lab/Exercise05)
 - demonstrated our MongooseOS example
 - demonstrated our Project 1
 - installed UlnoIoT on my linux machine
 - began to implement Project 1 with UlnoIoT
 
-## [Lecture 6](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_06)
+## [Lecture 6](/Portfolio/Lectures/Participation_06)
 UlnoIoT
 - Desktop interaction with Retro-Joystick
 - Display
@@ -123,34 +123,34 @@ UlnoIoT
 
 Introduction to Project 2
 
-## [Lab 6](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise06)
+## [Lab 6](/Portfolio/Lab/Exercise06)
 - rebuild [Project 1 with the UlnoIoT framework](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise06/Project01_ulnoiot) completely in hardware
 - Implement remote features such as the integrator with UlnoIoT-integriot
 
-## [Lecture 7](https://github.com/Ryanor/iot/tree/master/Portfolio/Lectures/Participation_07)
+## [Lecture 7](/Portfolio/Lectures/Participation_07)
 Research work Internet of Broken Things:
 - What is broken?
 - How can it be fixed?
 - Newsworthy failures/successes
 - Debate about the results
 
-## [Lab 7](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise07)
+## [Lab 7](/Portfolio/Lab/Exercise07)
 - Assembling the scale for the second project
 - Calibration of the scale to get correct measurements
 
-## [Lecture 8]()
+## [Lecture 8](/Portfolio/Lectures/Participation_08)
 
 
-## [Lab 8]()
+## [Lab 8](/Portfolio/Lab/Exercise08)
 
 
-## [Project 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Project01)
+## [Project 1](/Portfolio/Project01/project1.md)
 - flashed another Raspberry Pi 3 with the ulnoiot image (see [Lab 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise01) for details)
 - set up the childrens room sensors and the oven led
 - tested the project with MQTT-FX to subscribe and publish the correct data
 - merged project with Gabriels parts
 
-## [Project 2](https://github.com/Ryanor/iot/tree/master/Portfolio/Project02)
+## [Project 2](/Portfolio/Project02/project2.md)
 Liquid challenge
 - Assembled the scale
 - Calibrated the scale
