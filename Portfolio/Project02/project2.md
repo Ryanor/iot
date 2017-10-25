@@ -9,7 +9,7 @@ Anhand dieser Werte kann man sehr gut erkennen, dass der Regentropf Sensor sehr 
 
 Die Implementierung des Sensors wurde in der Arduino IDE realisiert. Die Werte des Sensors werden über MQTT an den Raspberry Pi gesendet.
 
-[Implementierung](/Project02/raindrop_sensor/raindrop_sensor_mqtt.ino)
+[Implementierung](/Portfolio/Project02/raindrop_sensor/raindrop_sensor_mqtt.ino)
 
 ## Ultraschall Sensor (Gabriel)
 
@@ -22,9 +22,9 @@ Der Ultraschall Sensor konnte trotz unterschiedlicher Flüssigkeiten immer den k
 
 Die Implementierung dieses Sensors war ein bisschen aufwendiger als jener zuvor. Ich habe eine bereits fertige Library für den ESP8266 verwendet und diese so verändert, dass diese kompatibel mit der UlnoIoT Umgebung ist. Im autostart.py kann man den Sensor so konfigurieren. "hcsr04("_Name_", _Trigger Pin_, _Echo Pin_)" Als Trigger bzw. Echo bin müssen jedoch die GPIO Pins verwendet werden. z.B. d5 = 14 (GPIO14). Durch die Einbindung der Library in das Framework, habe ich erst richtig verstanden wie die Treiber mit dem MQTT verknüpft sind. An einen solchen Ansatz habe ich zuvor nicht gedacht.
 
-[Library](/iot/Portfolio/Project02/_hcsr04.py)
+[Library](/Portfolio/Project02/_hcsr04.py)
 
-[Device Konfiguration](/iot/Portfolio/Project02/new_devices.py)
+[Device Konfiguration](/Portfolio/Project02/new_devices.py)
 
 ## VL53lox (Gerhard)
 - installed arduino library for the VL53lox time to flight sensor
@@ -44,7 +44,7 @@ Die Implementierung dieses Sensors war ein bisschen aufwendiger als jener zuvor.
 - the time to flight sensors work good with all fluids but the measurment is pending 
   +/- 10mm
   
-[Implementation](/iot/Portfolio/Project02/vl53l0x/vl53l0x.ino)
+[Implementation](/Portfolio/Project02/vl53l0x/vl53l0x.ino)
   
 ## Reed switch (Gerhard)
 - connected the reed switch to the wemos board, swtich uses digital input
@@ -57,7 +57,7 @@ Die Implementierung dieses Sensors war ein bisschen aufwendiger als jener zuvor.
     - works through materials e.g. wood, plastic, aluminium
     - must be used as float switch
 
-[Implementation](/iot/Portfolio/Project02/reed_switch/reed_switch.ino)
+[Implementation](/Portfolio/Project02/reed_switch/reed_switch.ino)
 
    
 ## Gas sensor (Gerhard)
@@ -68,7 +68,7 @@ Die Implementierung dieses Sensors war ein bisschen aufwendiger als jener zuvor.
     - even if the liquid is not pending
     - works to recognize gas damps but not to measure the level
 
-[Implementation](/iot/Portfolio/Project02/gas_sensor/gas_sensor.ino)
+[Implementation](/Portfolio/Project02/gas_sensor/gas_sensor.ino)
     
 ## Scale (beide)
 - scale works correct to measure the amount of a fluid
@@ -82,13 +82,13 @@ Die Implementierung dieses Sensors war ein bisschen aufwendiger als jener zuvor.
     
 Gerhard und ich haben die Waage aufgebaut und gemeinsam kalibriert. Der Faktor, um diese zu kalibrieren war 444,2.
 
-[Implementierung](/iot/Portfolio/Project02/ulnoiot_i2c_scale/ulnoiot_i2c_scale.ino)
+[Implementierung](/Portfolio/Project02/ulnoiot_i2c_scale/ulnoiot_i2c_scale.ino)
 
 
 
-![firstimg](/iot/Portfolio/Project02/fluid.JPG)
-![firstimg](/iot/Portfolio/Project02/oil.JPG)
-![firstimg](/iot/Portfolio/Project02/output.JPG)
+![firstimg](/Portfolio/Project02/fluid.JPG)
+![firstimg](/Portfolio/Project02/oil.JPG)
+![firstimg](/Portfolio/Project02/output.JPG)
 
 ## Summary
 The ultrasonic sensor and time to flight sensor are useful to measure the level of the fluids. 
