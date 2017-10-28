@@ -139,9 +139,44 @@ Research work Internet of Broken Things:
 - Calibration of the scale to get correct measurements
 
 ## [Lecture 8](/Portfolio/Lectures/Participation_08)
+Discussion about what is broken in the Internet of Things
+
+- What is broken?
+- What is fixed
+
+LORA
+
+- LoRaWAN
+    - relation bandwith / power/ range
+    - Link budget
+    - benefits of LoRa
+    - problems of LoRa
+
+Google research to the topics above
+
+TTN
+
+- The Things Network
 
 
 ## [Lab 8](/Portfolio/Lab/Exercise08)
+- finisched the calibration of the scale
+- integrated the scale in ulnoiot with i2c_connector
+- got the weight for different fluids with the scale for Project 2
+
+TTN
+- assembled Dragoino board onto the Raspberry Pi 3
+- intalled source for single-channel-gateway from github and builded the program
+- connected to the TTN network and received a transmission from team Schweighofer, Lugstein
+
+
+
+## [Lecture09](/Portfolio/Lectures/Participation_09)
+
+
+
+## [Lab9](/Portfolio/LabExercise09)
+
 
 
 ## [Project 1](/Portfolio/Project01/project1.md)
