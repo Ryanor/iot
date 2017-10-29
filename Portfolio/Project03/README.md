@@ -1,13 +1,26 @@
-# Lab 9
+# Project 3
 
-For the last project we grouped up with team Gonaus Lisa and Viacheslav Korkhonen
+I cooperation with team Gonaus Lisa and Khorkonen Viacheslav.
 
-## Prepare scenario for Project 3
+## User story
+Homeautomation and security
 
-### Scenario
+Lorem ipsum ...
 
-Family: Parent with two children.
-Family house with garden and wine cellar.
+### Sensor
+- Ultrasonic sensor
+- Raindrop sensor
+- Sound sensor
+- Environment sensor for temperature and humidity
+- Gas sensor
+- Reed switch
+- Touch button
+
+### Actors
+- Display
+- RGB-led
+- RGB-strip
+- IFTTT events
 
 - Windows are equipped with reed switches which trigger an IFTTT event when the window is opened
     but not if the window is tilted.
