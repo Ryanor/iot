@@ -1,7 +1,10 @@
 
 from integriot import *
+import numpy
 
-noise_mean = [0] * 10
+noise_mean = numpy.array([0] * 10)
+length = 0
+
 
 def gas_cb(msg):
     global display
@@ -20,12 +23,25 @@ def temp_cb(msg):
 
 
 def noise_cb(msg):
-   global rgb_strip
-   if (int) msg < 550:
+    global rgb_strip
+    global noise_mean
+    global length
+    
+    if length < 10:
+        noise_mean[length] = (int)msg
+        length++
+    else:
+        length = 0
+        noise_mean[length] = (int)msg
+        length ++
+        
+    if noise_mean.mean() < 300:
+        rgb_strip.publish("rgb/set","BLUE")
+    elif noise_mean.mean() < 550:
         rgb_strip.publish("rgb/set","GREEN")
-   elif (int) msg < 600:
-        rgb_strip.publish("rgb/set","ORANGE")
-   else:
+    elif noise_mean.mean() < 600:
+         rgb_strip.publish("rgb/set","ORANGE")
+    else:
         rgb_strip.publish("rgb/set","RED")
 
 
