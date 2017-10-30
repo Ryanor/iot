@@ -1,6 +1,7 @@
 
 from integriot import *
 
+noise_mean = [0] * 10
 
 def gas_cb(msg):
     global display
