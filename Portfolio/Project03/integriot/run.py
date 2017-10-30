@@ -2,7 +2,6 @@
 from integriot import *
 
 
-
 def gas_cb(msg):
     global display
     display.publish("set","&&cursor 0 1")
@@ -20,9 +19,13 @@ def temp_cb(msg):
 
 
 def noise_cb(msg):
-   global display
-   display.publish("set","&&cursor 8 1")
-   display.publish("set","Noi:" + msg)
+   global rgb_strip
+   if (int) msg < 550:
+        rgb_strip.publish("rgb/set","GREEN")
+   elif (int) msg < 600:
+        rgb_strip.publish("rgb/set","ORANGE")
+   else:
+        rgb_strip.publish("rgb/set","RED")
 
 
 def hum_cb(msg):
@@ -48,5 +51,6 @@ noise_sensor.add_callback_change(callback=noise_cb)
 prefix("display_rgb")
 display = actor("display")
 rgb_led = actor("rgb_led/rgb")
+rgb_strip = actor("rgb_strip/RGB_STRIP")
 
 run()

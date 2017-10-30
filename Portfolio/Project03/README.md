@@ -5,7 +5,20 @@ I cooperation with team Gonaus Lisa and Khorkonen Viacheslav.
 ## User story
 Homeautomation and security
 
-Lorem ipsum ...
+Max and Erika together with their eldest son and their baby.
+To make themselves as comfortable as possible the installed a temperature sensor
+in the living room which sends its actual value to a central hub in the living room.
+In the room of their son the installed a sound sensor which reads the acutal noise
+level and sends its information also to the central hub.
+
+Max has a fable for good wine, so he has a little wine cellar. To recognize fermentation
+gases he installed a gas sensor. THe sensor sends its values also to the hub.
+
+The central hub has a display, RGB-LED and a RGB-strip. The display shows the temperature of the living room.
+The noise level is indicated with the RGB_strip. It shows green led for normal noise level, orange for increased noise level and red for to much noise.
+The RGB-LED indicates the gas level in the wine cellar, at a specific treshold it turns the RGB-LED from GREEN to RED.
+
+Wheater station for the green house ...
 
 ### Sensor
 - Ultrasonic sensor
