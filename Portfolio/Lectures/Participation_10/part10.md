@@ -77,4 +77,3 @@ company manufactures solar-powered devices that, on the surface, look like regul
 ### Questions:
 - How hard is it to get new projects in the IoT domain?
 - Are you dealing only with software security or also hardware security?
-- 

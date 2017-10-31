@@ -7,7 +7,7 @@
   Predictive maintenance techniques are designed to help determine the condition of in-service equipment
   in order to predict when maintenance should be performed. This approach promises cost savings
   over routine or time-based preventive maintenance, because tasks are performed only when warranted.
-  
+
 - What problem does it solve?
     - prevent unexpected equipment failures
     - prevent costly equipment failures
@@ -26,9 +26,9 @@
     - Solar panels
     - industrial production machines
 
-- Which role does data analysis 
+- Which role does data analysis
     - SAP HANA analysis large amount of sensor data to predict machine failures
-    - Microsoft Azure    
+    - Microsoft Azure
 
 ### Heartbeat Monitoring of network nodes
 In computer clusters, heartbeat network is a private network which is shared only by the cluster nodes,
@@ -55,7 +55,7 @@ status and communicate with each other.
     - data visualistation
     - log data from a sensor using log command on ulnoiot
     - use liveplot.py
-   
+
 - Nodered
     - install node-red-dashboard via npm packet manager first
     - dashboard delivers new functions to node-red
