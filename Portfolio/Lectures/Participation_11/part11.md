@@ -84,3 +84,7 @@ Have you thought about using AR/VR technology in your games?
 - founded 2013
 
 #### succesful?
+
+## SCRUM
+### Stand-Up
+
