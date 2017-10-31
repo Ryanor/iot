@@ -6,6 +6,6 @@
 from ulnoiot import *
 
 # RGB strip
-rgb_multi("RGB_STRIP", d1, 8)
+rgb_multi("RGB_STRIP", d2, 8)
 
 run()
