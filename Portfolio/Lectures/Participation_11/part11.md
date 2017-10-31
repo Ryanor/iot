@@ -1,7 +1,6 @@
 # Participation 12
 
 ## Tamer Aslan
-
 - Creative Technologist
 - New Media Artist
 - Creative Engineer + Researcher
@@ -9,7 +8,6 @@
 ### Iot domains
 - wearables (Hope, Cuor)
 - home automation
-
 
 ### projects involoved:
 - Flame
@@ -21,7 +19,12 @@
 - Playful City
 - Hope
 
+### impact on startups
+- combine electronic devices with creativity
+- use games to bring people together
+
 ### question:
+Have you thought about using AR/VR technology in your games?
 
 
 ## IoT success stories
@@ -72,3 +75,12 @@
 
 
 ### Sensoro
+#### relation to IoT
+- central base station (alpha station)
+- sensor extensions (alpha nodes)
+- management engine (alpha commander) 
+
+#### history
+- founded 2013
+
+#### succesful?
