@@ -172,12 +172,50 @@ TTN
 
 
 ## [Lecture09](/Portfolio/Lectures/Participation_09)
+IoT maintenance
+- predictive maintenance
+- heartbeat monitoring
 
+Announcement of Project 3
 
+Data analysing and visualisation demonstration
 
-## [Lab9](/Portfolio/LabExercise09)
+## [Lab9](/Portfolio/Lab/Exercise09)
+- grouped up with team Gonaus Lisa and Viacheslav Korkhonen
+- User story for project 3
 
+## [Lecture10](/Portfolio/Lectures/Participation_10)
+IoT business opportunities
+- What means IoT to small businesses
+- Research on successful and failing Start-ups
 
+Introduction, talk and interview
+- Michael Schloh von Bennewitz
+
+Project 3
+- pros
+- cons
+
+## [Lab10](/Portfolio/Lab/Exercise10)
+- working with features of ulnoiot
+- started Project 3
+
+## [Lecture11](/Portfolio/Lectures/Participation_11)
+Introduction, talk and interview
+- Tamer Aslan
+
+IoT successes stories
+- Runtastic
+- Pebble
+- ...
+
+Scrum
+
+## [Lab11](/Portfolio/Lab/Exercise11)
+Continued work on Project 3
+
+## [Lab12](/Portfolio/Lab/Exercise12)
+Continued work on Project 3
 
 ## [Project 1](/Portfolio/Project01/project1.md)
 - flashed another Raspberry Pi 3 with the ulnoiot image (see [Lab 1](https://github.com/Ryanor/iot/tree/master/Portfolio/Lab/Exercise01) for details)
