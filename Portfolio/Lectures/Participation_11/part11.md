@@ -1,4 +1,4 @@
-# Participation 12
+# Participation 11
 
 ## Tamer Aslan
 - Creative Technologist
@@ -87,4 +87,8 @@ Have you thought about using AR/VR technology in your games?
 
 ## SCRUM
 ### Stand-Up
+- stand up meeting with the project group
+	- what was the last task
+	- what is the next task
+	- problems?
 

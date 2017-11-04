@@ -49,13 +49,17 @@ status and communicate with each other.
     - in the predictive maintenance it can be used to check if the sensor is alive and sends the correct data
 
 ## Project 3 announcement
+- build a group with another team
+- define a user story for the project
+- present user story
+	- make videos of functional hardware parts
+	- presentation should be about 15 min long
 
 ## Data analysis demonstration
 - Matplotlib
     - data visualistation
     - log data from a sensor using log command on ulnoiot
     - use liveplot.py
-
 - Nodered
     - install node-red-dashboard via npm packet manager first
     - dashboard delivers new functions to node-red

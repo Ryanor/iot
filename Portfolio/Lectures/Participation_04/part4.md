@@ -1,16 +1,16 @@
-## Participation 4
+# Participation 4
 
-### Issues with scale:
+## Issues with scale:
 - Interferring devices due to different protocols
 - get a lot of data from the devices which may get lost or stay unused
 - Fix and test bugs
 - security and privacy
 
-### Testing:
+## Testing:
 - Use simulator test programs
 - stresstest the hardware
 
-### Role play:
+## Role play:
 Simulator:
 - no hardware needed for test scaling up a project
 - find corner cases

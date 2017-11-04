@@ -34,7 +34,6 @@ company manufactures solar-powered devices that, on the surface, look like regul
 
 ### Links
 - [Smallbusinesscomputing.com](http://www.smallbusinesscomputing.com/News/Networking/what-the-internet-of-things-means-for-small-business.html)
-
 - [businessinsider.de](http://www.businessinsider.de/internet-of-things-small-business-opportunities-platforms-2016-8?r=US&IR=T)
 
 

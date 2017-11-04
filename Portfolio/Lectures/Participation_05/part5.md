@@ -1,3 +1,4 @@
+# Participation 5
 ## What I would like to see in an IoT Framework?
 
 - easy to install and use 
@@ -15,15 +16,15 @@
 
 - why and when unloiot was created
 - demonstration of ulniot
-    -- services like Accesspoint, MQTT
-    -- system_template demo with a button and a ligth
-    -- using initialize to flash a connected board
-    -- after flashing the board connect to the board via console_serial
-    -- create a button with the button("b1", d2) command
-    -- with command "devices" yout get a list of all created devices
-    -- execute with "run()"
-    -- create a button with the button("b1", d2,"down","up") command
-    -- execute with "run()"
+    - services like Accesspoint, MQTT
+    - system_template demo with a button and a ligth
+    - using initialize to flash a connected board
+    - after flashing the board connect to the board via console_serial
+    - create a button with the button("b1", d2) command
+    - with command "devices" yout get a list of all created devices
+    - execute with "run()"
+    - create a button with the button("b1", d2,"down","up") command
+    - execute with "run()"
   
 ## Recap
 - easy to install and to use
