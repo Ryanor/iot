@@ -1,6 +1,6 @@
 # Exercise 04
 
-## Node-Red
+## MongooseOS and Node-Red
 
 - fixed bugs in the python temperature script
 - installed MogooseOS

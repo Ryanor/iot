@@ -15,7 +15,7 @@ Gabriel:
 - used the example code to print a message on the dislay
 
 
-Comination of all programs should result in:
+Combination of all programs should result in:
 - a button press triggers an IFTTT event
-- this event is using the IFTTT webhook using a HTTPS Request
+- this event is using the IFTTT webhook which is pushed via HTTPS Request
 - the response message is printed on the LCD-display

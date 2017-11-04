@@ -1,10 +1,12 @@
 # Lab 6
 
+## Use ulnoiot to rebuild Project1
 ### Updated ulnoiot
 update to get the latest driver updates and bugfixes
 this was all done on my machine
 - cd ulnoiot
 - ulnoiot upgrade
+	- in this upgrade the issue mentioned in [lab 5](/Portfolio/Lab/Exercise05) was also fixed
 
 ### Prepare the system
 - change to folder system_template

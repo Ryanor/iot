@@ -10,11 +10,11 @@ JS and NodeJS
 
 ## Practical experience:
   Bachelor thesis 2:
-    Simulating Bluetooth LE sensors on a Raspberry Pi 3 with an USB Dongle that supports BLE advertising, using NodeJS, Bleno and JS.
+    Simulating Bluetooth LE sensors on a Raspberry Pi 3 with an USB Dongle that supports BLE peripheral mode, using NodeJS and bleno.
 
 ## Maker experience:
-  Working experience as CNC-operator at SKF, so I´m familiar with almost all kinds of cnc machines. 
-  Started to build a 3D-printer but stopped working because of starting study MC.
+  Working experience as CNC-operator at SKF, so I´m familiar with almost all kinds of CNC machines. 
+  Started to build a 3D-printer, but stopped working because of starting study MC.
   Bachelor thesis 1: 
     Prototypenerstellung mit CNC-Fräsen
 

@@ -2,9 +2,10 @@
 
 ## Scale
 - combined I2C from ulnoiot with the arduino une from the scale
-- used the scale for different fluids to get the weight
-	- weight of water
-	- weigth of oil
+- used the scale for different fluids to get the weight for:
+	- water
+	- waste water
+	- oil
 
 ## TTN
 - installed the Dragino shield onto the Raspberry Pi 3

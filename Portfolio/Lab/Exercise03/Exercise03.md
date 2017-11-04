@@ -11,7 +11,7 @@ Gabriel:
 
 ## MQTT
 
-- installed MQTT client from the arch user repositories
+- installed MQTTFX from the arch user repositories
 - connected the MQTT client to the MQTT broker running on the raspberry pi
 	- Failed: Used the common IP address from the WeMos examples 192.168.12.106 first
 - after using the correct IP address MQTT client connected to the broker

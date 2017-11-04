@@ -1,6 +1,6 @@
 # Lab12
 
-## continue work on project 3
+## Continued work on Project 3
 
 - setup noise sensor
 - setup gas sensor
@@ -12,3 +12,6 @@
 
 Failures:
 - typecast of calback message to int
+- flatten the values of the sound sensor insid integriot does not work as expected
+	- to much values are published from the sound sensor
+	- analog device driver has to be adopted to flatten the values there

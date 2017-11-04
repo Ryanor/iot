@@ -1,6 +1,6 @@
 # Lab 5
 
-### show project 1 
+## Presentation of Project 1 
 
 ### Update ulnoiot
 - connect to pi@192.168.12.1
@@ -26,7 +26,26 @@ to the local system
 
 
 Failures:
-- wifi connection mistake
-- run mistake
+- wifi was not connected to the acccesspoint running on the Pi
+- run.py mistake
 
-### Installed ulnoiot-framework on my machine
+### Installed [ulnoiot-framework](https://github.com/ulno/ulnoiot.git) on my machine
+- followed installation manual on github
+	- installed dependencies with the systems package manager
+	- cloned the repository
+	- made ulnoiot runnable
+	- edited .bash.rc and added source for lib/shell_starter/ulnoiot.bash
+	- Loop:
+		- started ulnoiot
+		- installed missing dependencies
+		- started ulnoiot again
+
+- started ulnoiot
+- flashed the WemosD1mini board as described above
+
+
+Failure:
+- in my bash.rc was the prompt modified
+	- ulnoiot couldn´t overwrite my prompt and therefore ulnoiot prompt was not correctly shown
+	- Added an Issue to the project for overwriting the prompt command
+	
