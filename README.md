@@ -231,4 +231,4 @@ Liquid challenge
 - Make a table about useful sensors
 - field of use for the sensors
 
-## [Project 3]()
+## [Project 3](/Portfolio/Project03/README.md)

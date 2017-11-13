@@ -1,6 +1,6 @@
 # Project 3
 
-I cooperation with team Gonaus Lisa and Khorkonen Viacheslav.
+Project 3 was built in cooperation with Gonaus Lisa and Khorkonen Viacheslav.
 
 ## User story
 Homeautomation and security
