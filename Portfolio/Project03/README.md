@@ -1,6 +1,8 @@
 # Project 3
 
-Project 3 was built in cooperation with Gonaus Lisa and Khorkonen Viacheslav.
+## Alternative's home automation
+
+For Project 3 we grouped up with Gonaus Lisa and Khorkonen Viacheslav.
 
 ## User story
 Homeautomation and security
@@ -49,3 +51,5 @@ and shows the value on the display.
     if no obstacles are detected, else the door stays open.
 - The greenhouse is equipped with a small weather station that monitors the humidity, temperature and light situation
 - Remote access to the system
+
+### [Greenhouse and garage part](/Project03_Gonaus_Korkhonen)
