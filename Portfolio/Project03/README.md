@@ -52,4 +52,4 @@ and shows the value on the display.
 - The greenhouse is equipped with a small weather station that monitors the humidity, temperature and light situation
 - Remote access to the system
 
-### [Greenhouse and garage part](/Project03_Gonaus_Korkhonen)
+### [Greenhouse and garage part](Project03_Gonaus_Korkhonen)
